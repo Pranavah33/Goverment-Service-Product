@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-root {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7fb;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+table input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+table th,
+table td {
+  border: 1px solid #d1d5db;
+  padding: 8px;
+  font-size: 13px;
+}
